@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2017. 教育部考试中心版权所有 保留所有权利
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--<bean class="cn.neea.admin.epay.data.security.EncryptPropertyPlaceholderConfigurer"
+          p:location="classpath:conf/neea-admin-jdbc.properties" ？ apache codesc base64编码实现
+          p:fileEncoding="utf-8" p:ignoreUnresolvablePlaceholders="true"/> 这里对jdbc.properties文件里的内容进行解密，现在直接使用不需要
+        参考 https://blog.csdn.net/jiutianhe/article/details/39671309
+          -->
+
+    <import resource="neea-admin-data-source-epay.xml"/>
+
+</beans>
