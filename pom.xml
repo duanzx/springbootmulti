@@ -36,7 +36,7 @@
         <jackson.verion>2.9.9</jackson.verion>
         <joda-time.version>2.9.6</joda-time.version>
         <jstl.version>1.2</jstl.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
         <ojdbc.version>11.2.0.3</ojdbc.version>
         <quartz.version>2.2.3</quartz.version>
